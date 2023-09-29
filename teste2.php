@@ -20,11 +20,11 @@
 <div class="c1">   
     <form action=# method="post">
     <p><b>Valor 1:</b></p>
-        <input type=text name=valor1><br>
+        <input type=number name=valor1 placeholder="Digite o valor 1" required><br>
     <p><b>Valor 2:</b></p> 
-        <input type=text name=valor2><br>
+        <input type=number name=valor2 placeholder="Digite o valor 2" required><br>
     <div class="btn">
-        <input type=submit name=botao><br><br>
+        <input type=submit name=botao value=Somar><br><br>
     </div>
     <b> Resultado: </b>
         <input type=text name=resul readonly value="<?php echo @$resultado;?>">
